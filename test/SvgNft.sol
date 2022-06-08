@@ -6,7 +6,8 @@ import "forge-std/Test.sol";
 contract SvgNft is Test {
     function setUp() public {}
 
-    function testExample() public {
-        assertTrue(true);
+    function testConstructor() public {
+        // TODO: write test to check if constructor initializes the contract correctly
+        assertTrue(false);
     }
 }
