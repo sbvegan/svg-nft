@@ -7,6 +7,7 @@ import "src/SvgNft.sol";
 
 contract TestSvgNft is Test {
     SvgNft svgNft;
+    // The Base64 encoding was generated using https://base64.guru/converter/encode/image/svg
     string svgURI =
         "data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAwIDIwMCIgd2lkdGg9IjIwMCIgIGhlaWdodD0iMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgZmlsbD0iZ3JlZW4iIHI9Ijc4IiAvPgo8L3N2Zz4=";
 

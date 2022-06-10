@@ -12,6 +12,10 @@ contract SvgNft is ERC721 {
         s_URI = _URI;
     }
 
+    function _baseURI() internal pure override returns (string memory) {
+        return "data:application/json;base64,";
+    }
+
     // TODO: tokenURI
 
     function getSVG() public view returns (string memory) {
