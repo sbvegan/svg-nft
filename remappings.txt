@@ -1,1 +1,2 @@
 openzeppelin-contracts/=lib/openzeppelin-contracts/contracts
+base64/=/home/soyboy/code/svg-nft/lib/base64/

@@ -2,6 +2,7 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
+import "base64/base64.sol";
 
 import "src/SvgNft.sol";
 
